@@ -305,15 +305,27 @@ a {
 }
 .box {
   text-align: center;
-  background:rgb(164, 174, 164)
+  background:rgb(164, 174, 164);
+  font size: 15px;
+  padding: 1.7em 0 3.8em 0;
+  line-height: 3;
 }
 .row {
-  margin-left: -15px;
+  margin-left: 25px;
   margin-right: -15px;
+  line-height: 1;
 }
 .row-1 {
-  margin-left: 435px;
-  margin-right: 435px;
+  margin-left: 430px;
+  margin-right: 461px;
+}
+#box span {
+  display: block;
+  margin-bottom: 3em;
+  text-align: center;
+  color: #99d0ac;
+  font-size: 12px;
+  padding-top: .8em;
 }
 #learn a.btn {
   display: block;
@@ -487,6 +499,7 @@ div.centered {
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  text-align: center;
 }
 #projects article > * {
   text-decoration: none;
@@ -542,7 +555,13 @@ div.centered {
   text-decoration: none;
   color: #333;
 }
-#slide1:checked ~ #controls label:nth-child(8), #slide2:checked ~ #controls label:nth-child(1), #slide3:checked ~ #controls label:nth-child(2), #slide4:checked ~ #controls label:nth-child(3), #slide6:checked ~ #controls label:nth-child(5), #slide7:checked ~ #controls label:nth-child(6), #slide8:checked ~ #controls label:nth-child(7),
+#slide1:checked ~ #controls label:nth-child(8),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3),
+#slide6:checked ~ #controls label:nth-child(5),
+#slide7:checked ~ #controls label:nth-child(6),
+#slide8:checked ~ #controls label:nth-child(7),
 #slide5:checked ~ #controls label:nth-child(4) {
   background: url('./img/left-arrow.png') no-repeat;
   float: left;
@@ -605,6 +624,7 @@ div.centered {
 
 .myImage {
   padding-left: 90px;
+  padding-right: 64px;
 }
 .row {
   margin-left: -15px;
@@ -613,11 +633,11 @@ div.centered {
 }
 .social {
   line-height: 0;
-  padding-left: 130px;
+  padding-left: 165px;
 }
 .connectme {
   display: -webkit-box;
-  padding-left: 90px;
+  padding-left: 130px;
 }
 .facebook {
   /*display: -webkit-box;
@@ -804,10 +824,10 @@ div.centered {
                                 <!-- Slider Setup -->
 
                                 <input checked="" type="radio" name="slider" id="slide1">
-                                <input type="radio" name="slider" id="slide2">
-                                <input type="radio" name="slider" id="slide3">
-                                <input type="radio" name="slider" id="slide4">
-                                <input type="radio" name="slider" id="slide5">
+                                <input checked="" type="radio" name="slider" id="slide2">
+                                <input checked="" type="radio" name="slider" id="slide3">
+                                <input checked="" type="radio" name="slider" id="slide4">
+                                <input checked="" type="radio" name="slider" id="slide5">
                                 <input type="radio" name="slider" id="slide6">
                                 <input type="radio" name="slider" id="slide7">
                                 <input type="radio" name="slider" id="slide8">
@@ -818,15 +838,15 @@ div.centered {
                                     <div id="overflow">
                                         <div class="inner">
                                             <article>
-                                              <a href="http://www.facebook.com/wirebrand" target="_blank">
+                                              <!-- <a href="http://www.facebook.com/wirebrand" target="_blank"> -->
                                                   <h3>PitchPerfect</h3>
-                                                  <img src="assets/img/projects/wire-clothing.png" alt="WIRE Clothing">
+                                                  <img src="img/Cricket-Groundsman_converted.png" alt="PitchPerfect">
                                                   <p>Something.</p>
                                                 </a>
                                             </article>
                                             <article>
                                                 <h3>Calculator</h3>
-                                                <img src="assets/img/projects/videby.png" alt="VIDEBY">
+                                                <img src="img/twitter.png" alt="VIDEBY">
                                                 <p>Something.</p>
                                             </article>
                                             <article>
