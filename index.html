@@ -1,189 +1,99 @@
 <!DOCTYPE html>
 <html >
   <head>
-    <meta charset="UTF-8">
+    <title> Raju's Resume </title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <!-- Optional theme -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
 </head>
 <style>
-html {}
+html{}
 header {
-  background: url(./img/intro-bg.jpg) no-repeat center center;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: #999;
+  }
+.col-sm-6 {
+    padding-right: 75px;
+  }
+span {
+    padding-top: 5px;
+    color: #eb4450;
+    font-weight: 100;
+    font-size: 86px;
+    position: relative;
+    margin-right: 5px;
+  }
+strong {
+    font-weight: 100;
+    color: #646464;
+    font-family: 'Lato', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+    font-size: 120px;
+  }
+p {
+    font-family: 'Lato', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: #646464;
+    font-size: 40px;
+    margin-bottom: 1.5em;
+    margin-top: 0.3em;
+    line-height: 1.7;
+  }
+a {
+    font-family: 'Lato', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: #646464;
+    font-size: 40px;
+    line-height: 1.7;
 }
-.container {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  content: " ";
-  display: table;
-}
-.row {
-  position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.col-sm-7 {
-  width: 58.33333333%;
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-header strong {
-  font-weight: 900;
-  display: block;
-  color: #646464;
-  font-family: 'Lato', 'Helvetica Neue', sans-serif;
-  font-size: 120px;
-  padding-top: 65px;
-  line-height: 3;
-}
-header strong span {
-  color: #eb4450;
-  font-weight: 900;
-  font-size: 86px;
-  position: relative;
-  top: -50px;
-  margin-right: 5px;
-}
-.col-sm-5 {
-  padding-top: 30px;
-  height: 100%;
-  right: 0;
-  width: 41.66666667%;
-}
-header p, header p.darker, h2 {
-  font-family: 'Lato', 'Helvetica Neue', sans-serif;
-  font-weight: 900;
-  color: #646464;
-  font-size: 40px;
-  margin-bottom: 1.5em;
-  margin-top: 0.3em;
-}
-header div.me img {
-  max-width: 100%;
-  height: auto;
-  /*position: absolute;*/
-  right: 0;
-  vertical-align: middle;
-}
+
+.col-sm-6 {
+    padding-left: 55px;
+    padding-top: 30px;
+  }
 main {
-  padding: 3.2em 0;
-  background-color: #eb4450;
-}
-.container {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 150px;
-  padding-right: 150px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
+    padding: 3.2em 0;
+    background-color: #eb4450;
+  }
+h1 {
+    font-size: 36px;
+    color: gainsboro;
+    text-align: center;
+    font-weight: 100;
+  }
 .col-sm-12 {
-  width: 100%;
-  /*float: left;*/
-  padding-left: 68px;
-}
-main h1 {
   text-align: center;
-  line-height: 1.385;
-  color: #FFF;
-  font-size: 40px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;
-}
-section {
-  padding: 2em 0 5em 0;
-}
-.skills {
-  margin-left: 35px;
-  margin-right: 35px;
-}
-.container-1 {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 150px;
-  padding-right: 150px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-  /*padding-left: 360px;*/
 }
 h2 {
-  padding: 1em 0 .8em 0;
-  font-size: 42px;
-  text-align: center;
-  text-transform: uppercase;
-  padding-left: 360px;
+  font-size: 56px;
+  line-height: 3;
+  font-weight: 100;
 }
 h2:after {
   content: ' ';
   display: block;
   width: 60px;
   margin: 0 auto;
-  padding-top: 20px;
   border-bottom: 3px solid rgba(0,0,0, 0.3);
 }
-.rowskills {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: table;
+h3 {
+  font-size: 50px;
+  padding-left: 80px;
+  font-weight: 100;
+  padding-top: 40px;
+
 }
-#row.skills [class*="col-"] {
-  float: none;
-  display: table-cell;
-  vertical-align: top;
+li {
+  line-height: 40px;
+  padding-left: 85px;
 }
-.col-sm-4 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 155px;
-  padding-right: 15px;
-}
-#skills h3 {
-  font-size: 40px;
-  font-weight: normal;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-  padding-left: 30px;
-}
-#skills h3:after {
-  content: ' ';
+li span {
   display: block;
-  width: 60px;
-  padding-top: 10px;
-  border-bottom: 3px solid rgba(0,0,0, 0.3);
-}
-#skills ul {
-  list-style: none;
-  padding-left: 10px;
-  width: 100%;
-}
-#skills ul.skills li {
-  line-height: 50px;
-}
-#skills ul.skills li span {
-  display: block;
-  line-height: 14px;
+  line-height: 10px;
   color: #a1a1a1;
   font-size: 14px;
   font-weight: bold;
@@ -191,570 +101,84 @@ h2:after {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;
 }
-#skills ul.skills li strong {
+li strong {
   font-size: 22px;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;
 }
-.col-sm-1 {
-  /*width: 8.33333333%;*/
-  position: relative;
-  min-height: 1px;
-  padding-left: 155px;
-  padding-right: 15px;
-  padding-top: 100px;
-}
-#skills .rowskills [class*="col-"] {
-  float: none;
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 65px;
-}
-#skills div.curly {
-  line-height: 100%;
-  font-family: 'Lato', sans-serif;
+span-1 {
   color: #737373;
   font-weight: 100;
-  font-size: 200px;
-  vertical-align: middle !important;
+  font-size: 250px;
+  line-height: 480px;
 }
-#skills .rowskills .col-sm-7 {
-  padding-top: 60px;
+h5 {
+  font-size: 50px;
+  font-weight: 100;
 }
-#skills .rowskills [class*="col-"] {
-  float: none;
-  display: table-cell;
-  vertical-align: top;
-}
-.col-sm-7 {
-  width: 58.33333333%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#skills a.btn {
-  float: right;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f5f5f5;
-  padding: 0.5em 1em 0.6em 1em;
-  color: #646464;
-  -moz-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  padding-right: 120px;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-#skills a.btn i {
-  font-size: 42px;
-  float: left;
+sub {
   display: block;
-  padding-top: 5px;
-}
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
+  line-height: 60px;
+  color: #a1a1a1;
+  font-size: 22px;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
-}
-.fa-github:before {
-  content: "\f09b";
-}
-#skills a.btn span {
-  font-size: 12px;
-  margin-left: 50px;
-  text-align: left;
-  padding-top: 5px;
-  display: block;
-  text-transform: uppercase;
-  line-height: 12px;
-}
-#skills h4 {
-  font-size: 36px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 10px;
-  color: #494949;
-  font-weight: normal;
-  padding-left: 40px;
-}
-#skills ul {
-  list-style: none;
-  padding-left: 0;
-  width: 100%;
-}
-#skills ul.iCan li {
-  padding-left: 40px;
-  margin-bottom: 22px;
-  line-height: 1.5em;
-  color: #737373;
-  font-size: 18px;
-}
-#learn {
-  background: #6b9f7d;
-}
-.box {
-  text-align: center;
-  background:rgb(164, 174, 164);
-  font size: 15px;
-  padding: 1.7em 0 3.8em 0;
-  line-height: 3;
-}
-.row {
-  margin-left: 25px;
-  margin-right: -15px;
-  line-height: 1;
-}
-.row-1 {
-  margin-left: 430px;
-  margin-right: 461px;
-}
-#box span {
-  display: block;
-  margin-bottom: 3em;
-  text-align: center;
-  color: #99d0ac;
-  font-size: 12px;
-  padding-top: .8em;
-}
-#learn a.btn {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  white-space: normal;
-  font-size: 18px;
-  padding: 1.7em 0 1.8em 0;
-  font-weight: 500;
-  background: #eff7f3;
-  color: #345c45;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-#learn a.btn {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  white-space: normal;
-  font-size: 18px;
-  padding: 1.7em 0 1.8em 0;
-  font-weight: 500;
-  background: #eff7f3;
-  color: #345c45;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
-
-
-#bring {
-  background: #2980b9;
-}
-section {
-  padding: 2em 0 5em 0;
-}
-.container {
-  width: 1170px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-
-}
-div.centered {
-  float: none;
-  margin: 0 auto;
-}
-.col-md-8 {
-  width: 66.66666667%;
-}
-#bring h2 {
-  color: #FFF;
-}
-h2 {
-  padding: 1em 0 .8em 0;
-  font-size: 42px;
-  text-align: center;
-  text-transform: uppercase;
-}
-#bring ul {
-  padding-left: 0;
-  list-style: none;
-}
-#bring ul li {
-  padding-left: 40px;
-  margin-bottom: 22px;
-  line-height: 1.5em;
-  color: #e9eff4;
-  font-size: 20px;
-}
-#bring ul li:before {
-  /*content: '\f00c';*/
-  color: #e9eff4;
-  font-family: FontAwesome;
-  display: inline-block;
-  width: 40px;
-  margin-left: -40px;
-}
-
-
-
-
-
-
-#cv {
-  background: #6b9f7d;
-}
-.container {
-  width: 1170px;
-}
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#cv h2 {
-  color: #FFF;
-  margin-bottom: 1em;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: block;
-}
-div.centered {
-  float: none;
-  margin: 0 auto;
-}
-.col-md-5 {
-  width: 41.66666667%;
-}
-#cv a.btn {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  white-space: normal;
-  font-size: 18px;
-  padding: 1.7em 0 1.8em 0;
-  font-weight: 500;
-  background: #eff7f3;
-  color: #345c45;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-#cv span {
-  display: block;
-  margin-bottom: 3em;
-  text-align: center;
-  color: #99d0ac;
-  font-size: 12px;
-  padding-top: .8em;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: block;
-  padding-right: 40px;
-}
-
-
-
-
-
-.container-2 {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-div.centered {
-  float: none;
-  margin: 0 auto;
-}
-.col-md-6 {
-  width: 50%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#slider {
-  -webkit-transform: translateZ(0);
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  text-align: center;
-}
-#projects article > * {
-  text-decoration: none;
-  color: #333;
-}
-#overflow {
-  width: 100%;
-  overflow: hidden;
-}
-#slide6:checked ~ #slides .inner {
-  margin-left: -500%;
-}
-
-#slides article {
-  width: 12.5%;
-  float: left;
-}
-#slides .inner {
-  -webkit-transform: translateZ(0);
-  -webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-}
-#slides .inner {
-  width: 800%;
-  line-height: 0;
-}
-#controls {
-  margin: -50% 0 0 0;
-  width: 100%;
-  height: 50px;
-}
-#active {
-  margin: 43% 0 0;
-  text-align: center;
-}
-#active label {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: #bbb;
-}
-#projects article > * {
-  text-decoration: none;
-  color: #333;
-}
-#slide1:checked ~ #controls label:nth-child(8),
-#slide2:checked ~ #controls label:nth-child(1),
-#slide3:checked ~ #controls label:nth-child(2),
-#slide4:checked ~ #controls label:nth-child(3),
-#slide6:checked ~ #controls label:nth-child(5),
-#slide7:checked ~ #controls label:nth-child(6),
-#slide8:checked ~ #controls label:nth-child(7),
-#slide5:checked ~ #controls label:nth-child(4) {
-  background: url('./img/left-arrow.png') no-repeat;
-  float: left;
-  margin: 0 0 0 -70px;
-  display: block;
-}
-#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4), #slide4:checked ~ #controls label:nth-child(5), #slide6:checked ~ #controls label:nth-child(7), #slide7:checked ~ #controls label:nth-child(8), #slide8:checked ~ #controls label:nth-child(1), #slide5:checked ~ #controls label:nth-child(6) {
-  background: url('./img/right-arrow.png') no-repeat;
-  float: right;
-  margin: 0 -70px 0 0;
-  display: block;
-}
-#controls label {
-  -webkit-transform: translateZ(0);
-  -webkit-transition: opacity 0.2s ease-out;
-  -moz-transition: opacity 0.2s ease-out;
-  -o-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-}
-#controls label {
-  display: none;
-  width: 26px;
-  height: 65px;
-  opacity: 0.3;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: -webkit-box;
-}
-.col-sm-4 {
-  width: 33.33333333%;
-  float:left;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#hobby h3 {
-  font-size: 16px;
-  color: #6b6b6b;
-  text-transform: uppercase;
-  font-weight: bold;
-
-}
-#hobby p {
-  font-size: 14px;
-  color: #ababab;
-  text-align: center;
-  margin-top: 2em;
-}
-#hobby p {
-  text-align: center;
-}
-.Cont {
-  background: white  no-repeat center center;
-  height: 1000px;
-  text-align: center;
-}
-
-.myImage {
-  padding-left: 90px;
-  padding-right: 64px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: -webkit-inline-box;
-}
-.social {
-  line-height: 0;
-  padding-left: 165px;
-}
-.connectme {
-  display: -webkit-box;
-  padding-left: 130px;
-}
-.facebook {
-  /*display: -webkit-box;
-  position: absolute;*/
-
-}
-.instagram {
-  display: -webkit-box;
-  padding-left: 40px;
-}
-.twitter {
-  display: -webkit-box;
-  padding-left: 40px;
-}
-.skype {
-  display: -webkit-box;
-  padding-left: 40px;
-}
-.G {
-  display: -webkit-box;
-  padding-left: 40px;
-}
-.Email {
-  clear: both;
-  color: rgba(21, 19, 19, 0.81);
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 1.5;
   font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
 }
-.mail {
-  border-radius: 4px;
+.bring {
+  background: rgb(42, 139, 157);
+  line-height: 8px;
+}
+h6 {
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 130px;
+  color: paleturquoise;
+}
+u {
+  color: rgba(253, 253, 253, 0.98);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 60px;
   display: block;
-  margin-top: 20px;
-  background-color: #27ae60;
-  text-align: center;
-  cursor: pointer;display: inline-block;
-  padding: 0.7em 10% 0.7em 10%;
-  border-bottom: 1px solid #21a257;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #def0e6;
+}
 
-}
-#cta h3 {
-  clear: both;
-  color: #FFF;
-  padding-top: 40px;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 1.5;
-}
-#ending a.btn {
-  border-radius: 4px;
-  display: block;
-  margin-top: 20px;
-  background-color: #27ae60;
-  text-align: center;
-  cursor: pointer;
-}
-#ending a.btn span {
-  display: inline-block;
-  padding: 0.7em 10% 0.7em 10%;
-  border-bottom: 1px solid #21a257;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #def0e6;
-}
-#ending a.btn strong {
-  display: inline-block;
-  color: #F4F4F4;
-  font-size: 24px;
-  padding: 0.7em 10% 0.8em 10%;
-  font-weight: bold;
-}
+
 </style>
-<header>
+
 <body>
+<header>
   <div class= "container">
-    <div class= "row">
-    <div class = "col-sm-7">
-					<strong><span>*</span>Hi</strong>
-					<p>My name is Damodar Gundu. <br>
-					I’m a 18 year old student from Sydney Australia.</p>
-					<p class="darker">And I’d love to join your team and create some awesome stuff with you!</p>
-				</div>
-    <div class="col-sm-5 me">
-        <img src="img/raju_portfolio.jpeg" alt="Damodar Gundu">
+    <div class="col-sm-6">
+      <span>*</span>
+        <strong>Hi</strong>
+          <p>My name is Raju. I'm 18 year old student from Sydney Australia.</p>
+          <a>I'd like to join in your team and create some awesome stuff.</a>
+    </div>
+  <div class="col-sm-6">
+    <img src="img/raju_portfolio.jpeg" alt="Damodar Gundu">
       </div>
     </div>
-  </div>
 </header>
 <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>I'd like to do iOS development part-time 3 days a week</h1>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>I'd like to do iOS development part-time 3 days a week.</h1>
         </div>
-        </div>
-  </main>
-<section id= "skills">
-  <div class= "container-1">
-    <div class="row">
-        <h2>How can I help you?</h2>
       </div>
-</div>
-<div class= "rowskills">
-   <div class= "col-sm-4">
-     <h3> Coding Skills </h3>
-     <ul class= "skills">
+    </div>
+</main>
+<skills>
+  <div class="col-sm-12">
+    <h2> HOW CAN I HELP YOU?</h2>
+  </div>
+  <div class= "skilla">
+    <div class= "col-sm-4">
+      <h3>Coding Skills</h3>
     <li>
       <span>Front-End Development</span>
       <strong>HTML, CSS, JavaScript</strong>
@@ -768,86 +192,32 @@ div.centered {
       <strong>On Xcode</strong>
     </li>
   </ul>
+  </div>
+    <div class="col-sm-2">
+      <span-1>}</span-1>
 </div>
-   <div class= "col-sm-1 hiiden-xs curly">
-     <span>}</span>
-   </div>
-   <div class="col-sm-7">
-           <a href="http://github.com/damodarGundu" target="_blank" class="btn github">
-             <i class="fa fa-github fa-2x"></i>
-             <span>Check out my</span>
-             <strong>GitHub</strong>
-           </a>
-           <h4>I can help you</h4>
-           <ul class="iCan">
-             <li>Coding <strong>interactive prototypes</strong>.</li>
-             <li><span>Something </span></li>
-             <li><span>Adding interactivity to your sites and apps through JavaScript.</span></li>
-             <li><span>Coding iOS apps using Swift.</span></li>
-             <li><span>Something </span></li>
-           </ul>
-         </div>
+  <div class="col-sm-6">
+    <h5>Can help you in</h5>
+             <sub>Coding interactive prototypes.</sub>
+             <sub>Something.</sub>
+             <sub>Adding interactivity to your sites and apps through JavaScript.</sub>
+             <sub>Coding iOS apps using Swift.</sub>
+             <sub>Something.</sub>
+  </div>
 </div>
-</section>
-<section id="bring">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 centered">
-          <h2>I can benefit your team by</h2>
-          <ul style="position: relative;">
-            <li><span>Working on ideas you never had time to realize.</span></li>
-            <li><span>Radically improving the design of your project.</span></li>
-            <li><span>Bringing new ideas. See things from a different point of view.</span></li>
-            <li><span>Something</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-<secion id= "learn">
-  <div class= "box">
-    <div class= "row">
-      <h2>Want to learn more?</h2>
-    </div>
-    <div class="row-1">
-          <a href="cv/Marek-Dlugos-CV.pdf" target="_blank" class="btn">Download my Curriculum Vitae</a>
-          <span>(1.3MB, in PDF)</span>
-    </div>
-    </div>
-</section>
+<div class="col-sm-12">
+<div class= "bring">
+  <h6> I CAN BENEFIT YOUR TEAM BY </h6>
+            <u>Working on ideas you never had time to realize.</u>
+            <u>Radically improving the design of your project.</u>
+            <u>Bringing new ideas. See things from a different point of view.</u>
+            <u>Something</u>
+  </div>
+</div>
 
-<section id= "ending">
-  <div class= "Cont">
-    <div class= "row">
-      <div class= "myImage">
-        <p style= ""><img src= "img/Raju.png"></img>
-      <div class= "social">
-        <p style= "display: table"><img src= "img/social.png"></img>
-     </div>
-        <div class= "connectme">
-          <div class= "facebook">
-           <form action="http://www.facebook.com/damodar.raju.25"><type="button"><br><input type="image" src="img/facebook.png"></form>
-          </div>
-          <div class= "instagram">
-           <form action="https://instagram.com/damodargundu25/"><type="button"><br><input type="image" src="img/instagram.png"></form>
-         </div>
-          <div class= "twitter">
-          <form action="https://twitter.com/damodarraju/"><type="button"><br><input type="image" src="img/twitter.png"></form>
-        </div>
-          <div class= "skype">
-          <form action="https://twitter.com/damodarraju/"><type="button"><br><input type="image" src="img/skype.png"></form>
-        </div>
-          <div class= "G">
-          <form action="https://plus.google.com/u/0/+RajuGunduraju"><type="button"><br><input type="image" src="img/G.png"></form>
-        </div>
-    </div>
-    <h3>Or just shoot me an e-mail to..</h3>
-    <a href="mailto:raju.damu25@gmail.com.com?subject=Hey%20Raju,%20This%20is%20your%20lucky%20day!" target="_blank" class="btn">
-                                    <span>Let my dream come true &amp; write me an e-mail</span>
-                                    <strong>raju.damu25@gmail.com</strong>
-                                </a>
-  </div>
-  </div>
-  </div>
-</section>
+
+
+      <!-- Latest compiled and minified JavaScript -->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
+</html>
