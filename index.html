@@ -227,9 +227,12 @@
     line-height: 5;
     font-weight: 100;
   }
+  .end {
+    text-align: center;
+  }
   .Me {
     text-align: center;
-    display: block;
+    display: inline-block;
     /*line-height:3;*/
 
   }
@@ -241,7 +244,7 @@
 
  .connectme {
    display: -webkit-box;
-   padding-left: 500px;
+   /*padding-left: 500px;*/
    line-height: 1;
 
  }
@@ -265,18 +268,25 @@
    padding-left: 40px;
 }
 .Email {
+  text-align: center;
   line-height: 5;
 }
 .Email a.btn{
   border-radius: 100px;
-  display: block;
-  margin-top: 20px;
+  display: inline-block;
+    margin-top: 20px;
   background-color: #27ae60;
   /*text-align: center;*/
   cursor: pointer;
   padding: 2.7em 10% 2.7em 10%;
-  margin-left: 350px;
- margin-right: 350px;
+  /*margin-left: 350px;*/
+ /*margin-right: 350px;*/
+}
+#text-1 {
+  display: block;
+}
+.mail {
+  display: -webkit-inline-box;
 }
 
   </style>
@@ -460,12 +470,12 @@
 </hobbies>
 
 <Ending>
+  <div class= "end">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <div class= "Me">
       <p style= ""><img src= "img/Raju.png"></img>
     <div class= "social">
       <p style= ""><img src= "img/social.png"></img>
-
    <div class= "connectme">
      <div class= "facebook">
       <form action="http://www.facebook.com/damodar.raju.25"><type="button"><br><input type="image" src="img/facebook.png"></form>
@@ -485,16 +495,17 @@
  </div>
 </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centered">
+</div>
+</div>
   <div class= "Email">
-
-
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centered">
   <!-- <b action="mailto:raju.damu25@gmail.com.com?subject=Hey%20Raju,%20This%20is%20your%20lucky%20day!" class="btn"><type="button">raju.damu25@gmail.com</b> -->
+  <div class="mail">
   <text-1>Let my dream come true &amp; write me an e-mail</text-1>
   <a href="mailto:raju.damu25@gmail.com.com?subject=Hey%20Raju,%20This%20is%20your%20lucky%20day!" target="_blank" class="btn">
-
-                                  <text-2>raju.damu25@gmail.com</text-2>
-                              </a>
+  <text-2>raju.damu25@gmail.com</text-2>
+  </a>
+</div>
 </div>
 
 </div>
