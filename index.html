@@ -176,7 +176,15 @@
   .carousel {
     padding: 350px;
     padding-top: inherit;
+    height: 750px;
   }
+  .carousel-inner {
+    text-align: center;
+  }
+  .carousel-inner>.active {
+  left: 0;
+  text-align: -webkit-center;
+}
   .carousel-control .icon-prev {
   width: 140px;
   height: 100px;
@@ -195,12 +203,12 @@
     padding: 350px;
   }
   .carousel-control.left {
-    padding: 250px;
+    padding: 300px;
     background-image: none;
     height: 200px;
   }
   .carousel-control.right {
-    padding: 250px;
+    padding: 300px;
     background-image: none;
     height: 200px;
   }
@@ -237,7 +245,7 @@
   .Me {
     text-align: center;
     display: inline-block;
-    /*line-height:3;*/
+    line-height: 6;
 
   }
  .social{
@@ -277,14 +285,12 @@
 }
 .Email a.btn{
   border-radius: 100px;
-  display: inline-block;
-    margin-top: 20px;
+  display: -webkit-inline-box;
+      margin-top: 20px;
   background-color: #27ae60;
   /*text-align: center;*/
   cursor: pointer;
   padding: 2.7em 10% 2.7em 10%;
-  /*margin-left: 350px;*/
- /*margin-right: 350px;*/
 }
 #text-1 {
   display: block;
@@ -404,37 +410,46 @@
         <lj data-target= "#myCarousel" data-slide-to="2"></lj>
         <lj data-target= "#myCarousel" data-slide-to="3"></lj>
         <lj data-target= "#myCarousel" data-slide-to="4"></lj>
+        <lj data-target= "#myCarousel" data-slide-to="5"></lj>
+
 
       </ol>
       <div class= "carousel-inner">
         <div class= "item active" id="slide-1">
-          <img src= "img/Hd-1.jpg">
+          <img src= "img/RollTheDice.png">
             <div class= "carousel-caption">
-              <h12>My heading text</h12>
+              <h12>Roll the Dice</h12>
               <p> some text </p>
             </div>
           </div>
           <div class= "item" id="slide-2">
-            <img src= "img/Hd-2.jpg">
+            <img src= "img/PitchPerfect.png">
               <div class= "carousel-caption">
-                <h12>My heading text</h12>
+                <h12>PitchPerfect</h12>
                 <p> some text </p>
               </div>
             </div>
             <div class= "item" id="slide-3">
-              <img src= "img/Hd-4.jpg">
+              <img src= "img/Dropit.png">
                 <div class= "carousel-caption">
-                  <h12>My heading text</h12>
+                  <h12>Dropit Game</h12>
                   <p> some text </p>
                 </div>
               </div>
               <div class= "item" id="slide-4">
-                <img src= "img/Hd-2.jpg">
+                <img src= "img/Swifris.png">
                   <div class= "carousel-caption">
-                    <h12>My heading text</h12>
+                    <h12>Swiftris Game</h12>
                     <p> some text </p>
                   </div>
                 </div>
+                <div class= "item" id="slide-5">
+                  <img src= "img/Calculator.png">
+                    <div class= "carousel-caption">
+                      <h12>Calculator</h12>
+                      <p> some text </p>
+                    </div>
+                  </div>
         </div>
         <a class= "left carousel-control" href= "#myCarousel" data-slide="prev">
           <sham class= "icon-prev"></sham>
