@@ -154,15 +154,20 @@
   #cv {
 
   }
-  input1[type=submit] {
+  input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 30px 5em 30px 50px;
+}
+  .input[type=submit] {
   /*-webkit-appearance: button;*/
   cursor: pointer;
   margin: 0 auto;
   text-align: center;
   white-space: normal;
   font-size: 18px;
-  padding: 1.7em 14px 1.8em 14px;
-  font-weight: 300;
+  padding: 30px 5em 30px 50px;  font-weight: 300;
   background: #eff7f3;
   color: #345c45;
   border-radius: 3px;
@@ -414,7 +419,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centered">
           <!-- <b href="cv/Raju's Resume.docx" target="_blank" type="Download my curriculum vitae" class="btn">Download my Curriculum Vitae</b> -->
           <form action="cv/Raju's Resume.docx">
-              <input1 type="submit" value="DOWNLOAD MY CURRICULUM VITAE">
+              <input type="submit" value="DOWNLOAD MY CURRICULUM VITAE">
           </form>
             <text>(98KB, in docxFile)</text>
         </div>
