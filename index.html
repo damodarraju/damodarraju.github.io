@@ -11,18 +11,15 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+
+   
   <style>
 
-  body {
-    /*background: url("img/Hd-6.jpg")*/
-  }
+ 
 
   header {
       background: #999;
@@ -297,9 +294,8 @@ input[type=submit]:active {
  }
 
  .connectme {
-   display: -webkit-box;
-   /*padding-left: 500px;*/
-   line-height: 1;
+   display: block;
+   line-height: 6;
 
  }
  .facebook {
@@ -324,7 +320,6 @@ input[type=submit]:active {
 .Email {
   text-align: center;
   line-height: 5;
-  /*background-image: url("img/Resume.html.jpg");*/
 }
 .Email a.btn{
   border-radius: 10px;
@@ -384,6 +379,60 @@ input[type=submit]:active {
 .project h2 {
   text-align: center;
 }
+
+
+
+.btn {
+    display: inline-block;
+    padding: 18px 26px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 100px;
+}
+
+.btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #ccc;
+    font-size: 22px;
+}
+
+.btn-default:hover {
+    color: white;
+     background-color: #3a5795; 
+    border-color: #3a5795;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -532,7 +581,7 @@ input[type=submit]:active {
     border-top: 3px solid #bbb; color: black;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centered">
           <!-- <b href="cv/Raju's Resume.docx" target="_blank" type="Download my curriculum vitae" class="btn">Download my Curriculum Vitae</b> -->
-           <form action="cv/Raju's Resume.docx">
+           <form action="cv/Resume.pdf">
             <input type="submit" value="DOWNLOAD MY RESUME">
            </form>
             <text>(98KB, in docxFile)</text>
@@ -641,21 +690,13 @@ input[type=submit]:active {
     <div class= "social">
       <p style= ""><img src= "img/social.png"></img>
     <div class= "connectme">
-    <div class= "facebook">
-      <form action="http://www.facebook.com/damodar.raju.25"><type="button"><br><input type="image" src="img/facebook.png"></form>
-    </div>
-    <div class= "instagram">
-      <form action="https://instagram.com/rajugundu25/"><type="button"><br><input type="image" src="img/instagram.png"></form>
-    </div>
-     <div class= "twitter">
-     <form action="https://twitter.com/damodarraju/"><type="button"><br><input type="image" src="img/twitter.png"></form>
-    </div>
-     <div class= "github">
-     <form action="https://github.com/damodarraju"><type="button"><br><input type="image" src="img/github_icon.png"></form>
-    </div>
-     <div class= "G">
-     <form action="https://plus.google.com/u/0/+RajuGunduraju"><type="button"><br><input type="image" src="img/G.png"></form>
-   </div>
+    
+
+  <a class="btn btn-default" href="http://www.facebook.com/damodar.raju.25"><i class="fa fa-facebook"></i></a>
+  <a class="btn btn-default" href="https://twitter.com/damodarraju/"><i class="fa fa-twitter"></i></a>
+  <a class="btn btn-default" href="https://instagram.com/rajugundu25/"><i class="fa fa-instagram"></i></a>
+  <a class="btn btn-default" href="https://plus.google.com/u/0/+RajuGunduraju"><i class="fa fa-google-plus"></i></a>
+  <a class="btn btn-default" href="https://github.com/damodarraju"><i class="fa fa-github"></i></a>
    </div>
   </div>
   </div>
@@ -665,7 +706,7 @@ input[type=submit]:active {
   <div class="mail">
      <text-1>Let my dream come true &amp; write me an e-mail</text-1>
       <a href="mailto:raju.damu25@gmail.com.com?subject=Hey%20Raju,%20This%20is%20your%20lucky%20day!" target="_blank" class="btn">
-       <text-2>raju.damu25@gmail.com</text-2>
+       <span class="glyphicon glyphicon-envelope"></span><text-2>raju.damu25@gmail.com</text-2>
       </a>
    </div>
 </div>
@@ -675,17 +716,6 @@ input[type=submit]:active {
 </div>
 </Ending>
 
-
-
-
-
-
-
-
-
-
-
-   
 
 
 
