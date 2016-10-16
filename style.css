@@ -4,6 +4,14 @@
                                             #curlBracket {
                                                 display: none;
                                             }
+                                          #mainBg {
+                                                background-image: url(images/background.png);
+                                                background-size: cover;
+                                            }
+                                          #sectionTwo {
+                                                padding-top: 40px;
+                                                padding-bottom: 50px;
+                                            }
                                         }
                                         
                                         h1,
