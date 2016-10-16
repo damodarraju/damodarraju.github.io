@@ -4,7 +4,10 @@
                                             #curlBracket {
                                                 display: none;
                                             }
-                                          #mainBg {
+                                         
+                                        }
+@media only screen and (max-device-width: 480px) {
+   #mainBg {
                                                 background-image: url(images/background.png);
                                                 background-size: cover;
                                                 height: auto;
@@ -15,7 +18,8 @@
                                                 padding-left: 10px;
                                                 padding-right: 10px;
                                             }
-                                        }
+
+}
                                         
                                         h1,
                                         h2,
