@@ -7,10 +7,13 @@
                                           #mainBg {
                                                 background-image: url(images/background.png);
                                                 background-size: cover;
+                                                height: auto;
                                             }
                                           #sectionTwo {
                                                 padding-top: 40px;
                                                 padding-bottom: 50px;
+                                                padding-left: 10px;
+                                                padding-right: 10px;
                                             }
                                         }
                                         
